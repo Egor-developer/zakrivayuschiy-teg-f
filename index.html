@@ -9,10 +9,73 @@
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
+    <link rel="icon" href="./images/favicon.svg" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="header container">
+      <a href="#" class="header-logo">&lt;/HTML&gt;</a>
+      <h1 class="header-title">закрывающий тег</h1>
+    </header>
+    <main class="container">
+      <article class="card">
+        <h2 class="card-title">
+          Фритрек и нулевой спринт: Подготовка к работе
+        </h2>
+        <img src="./images/image.jpg" alt="автобус" class="card-img" />
+        <div class="card-text__wrapper">
+          <p class="card-text">
+            Это было самое начало пути. На этом этапе важно было проникнуться
+            основами и настроиться на учёбу. И, возможно, подумать, как новые
+            знания могут повлиять на ваше будущее.
+          </p>
+          <p class="card-text">
+            Место для ваших воспоминаний о начале обучения.
+          </p>
+        </div>
+        <div class="card-buttons">
+          <button class="card-button card__icon-button">
+            <svg
+              class="like-icon"
+              width="27"
+              height="24"
+              viewBox="0 0 27 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M6 0H3V3H6V0Z" fill="black" />
+              <path d="M9 0H6V3H9V0Z" fill="black" />
+              <path d="M3 3H0V6H3V3Z" fill="black" />
+              <path d="M3 6H0V9H3V6Z" fill="black" />
+              <path d="M3 9H0V12H3V9Z" fill="black" />
+              <path d="M12 0H9V3H12V0Z" fill="black" />
+              <path d="M6 12H3V15H6V12Z" fill="black" />
+              <path d="M9 15H6V18H9V15Z" fill="black" />
+              <path d="M12 18H9V21H12V18Z" fill="black" />
+              <path d="M21 0H24V3H21V0Z" fill="black" />
+              <path d="M18 0H21V3H18V0Z" fill="black" />
+              <path d="M24 3H27V6H24V3Z" fill="black" />
+              <path d="M24 6H27V9H24V6Z" fill="black" />
+              <path d="M24 9H27V12H24V9Z" fill="black" />
+              <path d="M15 0H18V3H15V0Z" fill="black" />
+              <path d="M21 12H24V15H21V12Z" fill="black" />
+              <path d="M18 15H21V18H18V15Z" fill="black" />
+              <path d="M15 18H18V21H15V18Z" fill="black" />
+              <path d="M15 3H12V6H15V3Z" fill="black" />
+              <path d="M15 21H12V24H15V21Z" fill="black" />
+            </svg>
+          </button>
+          <button class="card-button button-like">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+      <button class="button-save">
+        <svg viewBox="0 0 39 39" class="button-save__image">
+          <use href="./svg/floppy.svg#floppy" />
+        </svg>
+        <span class="button__text">Сохранить на память</span>
+      </button>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
