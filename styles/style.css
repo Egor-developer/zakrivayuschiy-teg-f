@@ -127,10 +127,6 @@
   position: relative;
 }
 
-.card-image {
-  block-size: 699px;
-}
-
 .card-label {
   position: absolute;
   top: 25px;
@@ -158,6 +154,7 @@
   display: block;
   border-block: 2px solid var(--accent-color);
   inline-size: 100%;
+  block-size: 699px;
 }
 
 .card-text__wrapper {
