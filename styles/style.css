@@ -154,7 +154,7 @@
   display: block;
   border-block: 2px solid var(--accent-color);
   inline-size: 100%;
-  block-size: 699px;
+  block-size: 699.5px;
 }
 
 .card-text__wrapper {
