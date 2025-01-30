@@ -127,6 +127,10 @@
   position: relative;
 }
 
+.card-image {
+  block-size: 699px;
+}
+
 .card-label {
   position: absolute;
   top: 25px;
@@ -267,6 +271,10 @@
 
   .header {
     padding-block: 120px;
+  }
+
+  .card-image {
+    block-size: 374px;
   }
 
   .card-label {
